@@ -155,26 +155,25 @@ nav a.active{color:var(--aqua)}
 .journal-hero{padding:clamp(80px,10vw,150px) clamp(28px,8vw,125px);background:var(--cream)}
 .journal-kicker{margin:0 0 28px;color:var(--aqua);font-size:12px;font-weight:800;letter-spacing:.16em;text-transform:uppercase}
 .journal-hero h1{max-width:1050px;margin:0;font-family:Georgia,'Times New Roman',serif;font-size:clamp(40px,4vw,56px);line-height:1.08;font-weight:400;letter-spacing:-.03em}
-.journal-hero>p:last-child{max-width:700px;margin:38px 0 0;color:var(--muted);font-size:clamp(17px,1.5vw,21px);line-height:1.75}
+.journal-hero .journal-hero-intro{max-width:920px;margin:0;color:var(--ink);font-family:Georgia,'Times New Roman',serif;font-size:clamp(28px,3vw,42px);line-height:1.35;font-weight:400;letter-spacing:-.018em}
 .article-list{padding:clamp(70px,9vw,130px) clamp(28px,8vw,125px);background:var(--paper)}
 .article-card{max-width:980px;padding:0 0 55px;border-bottom:1px solid var(--line)}
-.article-card h2{max-width:800px;margin:0 0 22px;font-family:Georgia,'Times New Roman',serif;font-size:clamp(32px,3.6vw,50px);line-height:1.08;font-weight:400;letter-spacing:-.025em}
+.article-card h2{max-width:800px;margin:0 0 22px;font-family:Georgia,'Times New Roman',serif;font-size:clamp(28px,3vw,40px);line-height:1.12;font-weight:400;letter-spacing:-.022em}
 .article-card>p:not(.article-meta){max-width:760px;margin:0;color:var(--muted);font-size:17px;line-height:1.8}
 .article-link{display:inline-block;margin-top:32px;border-bottom:1px solid var(--ink);padding-bottom:5px;font-size:13px;font-weight:800}
 .article-hero{padding:clamp(80px,10vw,145px) clamp(28px,8vw,125px);background:var(--ink);color:#fff}
 .article-hero>*{max-width:1020px;margin-left:auto;margin-right:auto}
-.article-hero h1{margin-top:0;margin-bottom:0;font-family:Georgia,'Times New Roman',serif;font-size:clamp(44px,5.2vw,76px);line-height:1.04;font-weight:400;letter-spacing:-.035em}
+.article-hero h1{margin-top:0;margin-bottom:0;font-family:Georgia,'Times New Roman',serif;font-size:clamp(38px,4.3vw,60px);line-height:1.08;font-weight:400;letter-spacing:-.03em}
 .article-hero .article-meta{color:#a8c1bf}
 .article-body{max-width:790px;margin:0 auto;padding:clamp(72px,8vw,120px) 28px}
 .article-body p,.article-body li{color:#536866;font-size:18px;line-height:1.85}
 .article-body p{margin:0 0 26px}
-.article-body .article-intro{color:var(--ink);font-family:Georgia,'Times New Roman',serif;font-size:clamp(24px,2.5vw,34px);line-height:1.5}
-.article-body h2{margin:68px 0 22px;color:var(--ink);font-family:Georgia,'Times New Roman',serif;font-size:clamp(27px,2.5vw,36px);line-height:1.18;font-weight:400;letter-spacing:-.018em}
+.article-body .article-intro{color:var(--ink);font-family:Georgia,'Times New Roman',serif;font-size:clamp(20px,1.8vw,26px);line-height:1.58}
+.article-body h2{margin:50px 0 18px;color:var(--ink);font-family:Georgia,'Times New Roman',serif;font-size:clamp(23px,2vw,29px);line-height:1.24;font-weight:400;letter-spacing:-.012em}
 .article-body ul{margin:24px 0 0;padding-left:25px}
 .article-body li{padding:0 0 12px 7px}
 .article-body li::marker{color:var(--aqua)}
 .article-takeaway{margin:76px 0 52px;padding:clamp(32px,5vw,54px);background:var(--cream);border-top:3px solid var(--aqua)}
-.article-takeaway h2{margin-top:0}
 .article-takeaway p:last-child{margin-bottom:0}
 @media(max-width:960px){
   .thoughts-preview-grid{grid-template-columns:1fr;gap:52px}
@@ -184,13 +183,14 @@ nav a.active{color:var(--aqua)}
   .thoughts-preview-intro>p{font-size:18px}
   .journal-hero{padding:68px 24px}
   .journal-hero h1{font-size:42px}
+  .journal-hero .journal-hero-intro{font-size:28px;line-height:1.4}
   .article-list{padding:64px 24px}
-  .article-card h2{font-size:34px}
+  .article-card h2{font-size:30px}
   .article-hero{padding:68px 24px}
-  .article-hero h1{font-size:44px}
+  .article-hero h1{font-size:38px}
   .article-body{padding:62px 24px}
   .article-body p,.article-body li{font-size:16px;line-height:1.8}
-  .article-body .article-intro{font-size:23px;line-height:1.5}
-  .article-body h2{margin-top:54px;font-size:27px}
+  .article-body .article-intro{font-size:20px;line-height:1.58}
+  .article-body h2{margin-top:44px;font-size:23px}
   .article-takeaway{margin-top:60px;padding:32px 24px}
 }
