@@ -116,7 +116,7 @@
   .hero-actions .button{padding:14px 20px;font-size:13px}
   .hero-actions .text-link{font-size:13px}
   .hero-portrait{width:100%;min-width:0;padding:0}
-  .portrait-frame,.portrait-note{width:min(100%,300px);max-width:300px}
+  .portrait-frame,.portrait-note{width:min(100%,270px);max-width:270px}
   .portrait-note{padding-top:13px}
   .portrait-note strong{font-size:11px;line-height:1.35}
   .portrait-note span{font-size:11px;line-height:1.45}
